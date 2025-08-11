@@ -1,0 +1,64 @@
+.upload-section {
+    background-color: #f0f8ff;
+    padding: 30px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.upload-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.upload-section label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.upload-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f9f9ff;
+    border: 1px solid #0056b3;
+    resize: vertical;
+}
+
+.upload-section input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0056b3;
+    background-color: #e8f0ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload-section button {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0056b3;
+    background-color: #e8f0ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload-section button.submit {
+    background: #004aad;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseLine | Doctor Panel</title>
+    <link rel="stylesheet" href="doctor.css">
+</head>
+
+<body>
+    <header>
+        <h1>Doctor Dashboard</h1>
+        <p>Welcome to HouseLine. Review patient cases and provide prescriptions.</p>
+    </header>
+
+    <section class="patient-case">
+        <h2>Patient Entry</h2>
+        <p><strong>Text Description:</strong> Patient reports severe chest pain and shortness of breath.</p>
+
+        <div class="media">
+            <p><strong>Uploaded Image:</strong></p>
+            <img src="sample-image.jpg" alt="Uploaded symptom image" width="300">
+
+            <p><strong>Uploaded Video:</strong></p>
+            <video controls width="300">
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <p><strong>Audio Description:</strong></p>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="llm-analysis">
+            <h3>LLM Diagnosis</h3>
+            <p>Possible signs of acute myocardial infarction. Recommend immediate ECG and blood tests.</p>
+        </div>
+
+        <div class="doctor-review">
+            <h3>Your Final Diagnosis & Prescription</h3>
+            <textarea placeholder="Write your review and prescription here..."></textarea>
+            <button>Submit Review</button>
+        </div>
+    </section>
+</body>
+
+</html>
