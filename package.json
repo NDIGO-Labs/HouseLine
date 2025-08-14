@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  },
+  "name": "houseline",
+  "version": "1.0.0",
+  "description": "An AI powered Decentralized Electronic Health Record",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NDIGO-Labs/HouseLine.git"
+  },
+  "keywords": [],
+  "author": "Osutuk Ndifreke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NDIGO-Labs/HouseLine/issues"
+  },
+  "homepage": "https://github.com/NDIGO-Labs/HouseLine#readme"
+}
