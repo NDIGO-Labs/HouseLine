@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+header {
+    background: #004aad;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #004aad;
+}
+
+p {
+    font-weight: 500;
+}
