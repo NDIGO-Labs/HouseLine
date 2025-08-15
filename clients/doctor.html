@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Dashboard - HouseLine</title>
+    <link rel="stylesheet" href="css/doctor.css" />
+</head>
+
+<body>
+    <h1>Doctor Dashboard</h1>
+    <div id="patient-info">
+        <h2>Patient Symptoms & AI Analysis</h2>
+        <p id="symptoms"></p>
+        <p id="ai-analysis"></p>
+
+        <div id="media">
+            <img id="image" src="" alt="Uploaded Image" style="max-width:300px;" /><br>
+            <video id="video" controls width="300"></video><br>
+            <audio id="audio" controls></audio>
+        </div>
+
+        <form id="diagnosis-form">
+            <label for="diagnosis">Doctor's Final Diagnosis:</label><br />
+            <textarea id="diagnosis" rows="10" cols="50"></textarea><br />
+            <button type="submit" class="submit">Submit Diagnosis</button>
+        </form>
+    </div>
+    <script src="doctor.js"></script>
+</body>
+
+</html>

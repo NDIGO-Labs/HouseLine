@@ -6,11 +6,15 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Routes
-const patientRoutes = require('./api/routes/patient');
-const doctorRoutes = require('./api/routes/doctor');
+// Import routes
+const patientRoutes = require('./routes/patient');
+const doctorRoutes = require('./routes/doctor');
+
+// Use routes
 app.use('/api/patient', patientRoutes);
 app.use('/api/doctor', doctorRoutes);
 
-const PORT = 5000;
-app.listen(PORT, () => console.log(`API running on port ${PORT}`));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
